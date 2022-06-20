@@ -1,0 +1,142 @@
+#login-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#login-container {
+  background-color: $secondColor;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: 1px solid $additionalHeaderHEX;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#autButton {
+  background-color: #519872;
+  color: white;
+  margin-top: 60px;
+}
+.MuiFormLabel-root {
+  color: white;
+}
+#register-container {
+  background-color: $secondColor;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: 1px solid $additionalHeaderHEX;
+}
+#regButton,
+#logButton {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #519872;
+  color: white;
+  /* width: 84.4px; */
+}
+
+#reg-photo {
+  margin-top: 15px;
+  border-radius: 100px;
+}
+
+#delete-icon {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  border: none;
+  background-color: transparent;
+  padding: 0 0 0 0;
+  cursor: pointer;
+}
+#prewatchPhoto {
+  position: relative;
+}
+
+#photo-button {
+  margin-top: 15px;
+}
+
+.MuiFormHelperText-filled {
+  position: absolute;
+  bottom: -20px;
+}
+.eyeButtn {
+  position: absolute;
+  top: 40%;
+  right: 3px;
+  cursor: pointer;
+}
+.eyeButtnCont {
+  position: relative;
+}
+.loginLink {
+  color: $additionalHeaderHEX;
+  &:hover {
+    color: $additionalHeaderHEX;
+  }
+}
+.loginLinkCont {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+.registerLink {
+  color: $additionalHeaderHEX;
+  &:hover {
+    color: $additionalHeaderHEX;
+  }
+  position: absolute;
+  bottom: 4px;
+}
+
+.loginError {
+  color: #f44336;
+  font-size: 12px;
+  position: absolute;
+  top: 60px;
+}
+
+.logostarter-negative {
+  background: blue url("../components/img/smile-negative.png") no-repeat scroll
+    center center;
+}
+.logostarter-positive {
+  background: blue url("../components/img/smile-positive.png") no-repeat scroll
+    center center;
+  background-size: 112%;
+  animation: 6s linear 0s normal none infinite running rot;
+  -webkit-animation: 6s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

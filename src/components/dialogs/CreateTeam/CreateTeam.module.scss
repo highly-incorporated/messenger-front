@@ -1,0 +1,23 @@
+.root {
+  position: relative;
+  background-color: #292c31;
+  width: 700px;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid rgba(142, 146, 151, 0.6);
+}
+.photoChoice {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.settPhoto {
+  border-radius: 10px;
+  margin-right: 15px;
+}
